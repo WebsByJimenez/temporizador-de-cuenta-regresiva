@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    sans-serif;
+  background-color: slateblue;
+  padding: 10px;
+  overflow: hidden;
+}
+
+/* Forzamos a que el contenedor principal centre todo su contenido en vertical y horizontal */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+h2 {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.year {
+  font-size: 5em;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.countdown {
+  margin: 30px auto;
+  background-color: rgba(0, 0, 0, 0.1);
+  width: calc(100% - 20px);
+  max-width: 600px;
+  color: white;
+  height: 120px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+}
+
+/* Control del estado oculto inicial para evitar parpadeos */
+.hidden {
+  opacity: 0;
+}
+
+/* Animación de aparición suave controlada por JS */
+.visible {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* Regla para los contenedores individuales de cada bloque */
+.countdown > div {
+  flex: 1;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Estilos para los números dentro de la etiqueta <time> */
+.countdown div time {
+  font-size: 2.2em;
+  font-weight: bold;
+  display: block;
+  line-height: 1;
+  margin-top: -15px;
+}
+
+.countdown > div::before {
+  position: absolute;
+  bottom: -25px;
+  font-size: 0.75em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  opacity: 0.9;
+}
+
+/* Asignación de los textos buscando el ID del elemento <time> hijo */
+.countdown div:has(#day)::before {
+  content: "Días";
+}
+.countdown div:has(#hour)::before {
+  content: "Horas";
+}
+.countdown div:has(#minute)::before {
+  content: "Minutos";
+}
+.countdown div:has(#second)::before {
+  content: "Segundos";
+}
