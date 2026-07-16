@@ -28,6 +28,7 @@ Una aplicación web interactiva y totalmente responsiva que muestra la cuenta re
 ```
 
 👤 Autor
+
 Desarrollado con 💻 por WebsByJimenez.
 
 
