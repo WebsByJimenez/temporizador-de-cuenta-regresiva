@@ -27,7 +27,7 @@ Una aplicación web interactiva y totalmente responsiva que muestra la cuenta re
 └── README.md
 ```
 
-Autor
-WebsByJimenez
+👤 Autor
+Desarrollado con 💻 por WebsByJimenez.
 
 
