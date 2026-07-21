@@ -1,18 +1,30 @@
-# ⏳ Temporizador de Cuenta Regresiva - Año Nuevo
+# ⏳ Temporizador de Cuenta Regresiva — Año Nuevo
 
-Una aplicación web interactiva y totalmente responsiva que muestra la cuenta regresiva en tiempo real para el próximo Año Nuevo. El proyecto está diseñado para actualizarse de forma automática y perpetua año tras año sin necesidad de mantenimiento manual.
+**Temporizador de Cuenta Regresiva** es una aplicación web interactiva y totalmente adaptativa que muestra el tiempo restante en tiempo real para el próximo Año Nuevo. El proyecto está diseñado con lógica dinámica para actualizarse de forma automática y perpetua año tras año sin necesidad de mantenimiento manual.
 
-## 🚀 Características
+![Licencia](https://img.shields.io/badge/licencia-MIT-blue.svg)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 
-- **Automatización Infinita:** Calcula dinámicamente el próximo año utilizando la API de JavaScript (`Date`).
+---
+
+## ✨ Características Principales
+
+- **Automatización Infinita:** Calcula dinámicamente el próximo año utilizando la API nativa de JavaScript (`Date`), garantizando funcionamiento continuo sin intervención manual.
 - **Diseño Responsivo:** Adaptado para una visualización óptima en dispositivos móviles, tablets y ordenadores de escritorio.
-- **Formateo Profesional:** Los contadores inferiores a 10 mantienen el formato de doble dígito (`00`) para cuidar la estética visual.
+- **Formateo Visual Cuidado:** Los contadores inferiores a 10 mantienen el formato de doble dígito (`00`) para preservar la simetría y estética visual.
+- **Sin Dependencias:** Construido exclusivamente con tecnologías web estándar para una carga ultrarrápida.
+
+---
 
 ## 🛠️ Tecnologías Utilizadas
 
-- **HTML5** - Estructura semántica.
-- **CSS3** - Estilos personalizados, Flexbox y Media Queries para la adaptabilidad.
-- **JavaScript (ES6+)** - Lógica del temporizador y manipulación del DOM.
+- **HTML5:** Estructura semántica completa.
+- **CSS3:** Estilos personalizados, Flexbox y Media Queries para una adaptabilidad fluida.
+- **JavaScript (ES6+):** Lógica del temporizador, gestión de fechas y manipulación del DOM en tiempo real.
+
+---
 
 ## 📦 Estructura del Proyecto
 
@@ -26,7 +38,8 @@ Una aplicación web interactiva y totalmente responsiva que muestra la cuenta re
 ├── index.html
 └── README.md
 ```
-
+🚀 Instalación y Uso Local
+No requiere instalación de dependencias ni servidores externos.
 👤 Autor
 
 Desarrollado con 💻 por WebsByJimenez.
