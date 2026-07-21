@@ -2,12 +2,6 @@
 
 **Temporizador de Cuenta Regresiva** es una aplicación web interactiva y totalmente adaptativa que muestra el tiempo restante en tiempo real para el próximo Año Nuevo. El proyecto está diseñado con lógica dinámica para actualizarse de forma automática y perpetua año tras año sin necesidad de mantenimiento manual.
 
-![Licencia](https://img.shields.io/badge/licencia-MIT-blue.svg)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-
----
 
 ## ✨ Características Principales
 
